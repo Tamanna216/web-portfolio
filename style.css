@@ -2,10 +2,16 @@
 body{
     'Poppins', sans-serif;
 }
+h2{
+    font-size: 40px;
+}
+.people{
+    color: rgb(26, 89, 226);
+}
 h1{
     font-size: 50px;
 }
-   .name{
+.name-highlight{
     color: rgb(241, 35, 214);
 }
 .first-half{
@@ -22,13 +28,22 @@ h1{
     background-image: url("images/top-banner.png");
 }
 section{
-    height: 600px;
+    height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    background-image: linear-gradient( orange, red);
+    background-color: rgb(228, 54, 161);
+    color: white;
+    font-weight: 700;
+}
+.link-button1{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient( orange, red); 
     color: white;
     font-weight: 700;
 }
@@ -43,7 +58,34 @@ section{
 }
 .middle-banner{
     background-repeat: no-repeat;
-    background-image: url("images/top-banner.png");
+    background-image: url("images/dream.png");
+    background-position: right;
 }
-
-    
+.line-highlight{
+    color: rgb(255, 30, 180);
+}
+.single_experience{
+    box-shadow:5px 5px  35px rgb(229, 130, 163);
+    border-radius: 2%;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#first-id{
+    border-left:7px solid;
+    border-image: linear-gradient(rgb(241, 44, 44), rgb(187, 76, 154));
+    border-image-slice: 1;
+}
+#second-id{
+    border-left:7px solid;
+   border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
