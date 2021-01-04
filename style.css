@@ -1,10 +1,11 @@
+
 body{
     'Poppins', sans-serif;
 }
 h1{
     font-size: 50px;
 }
-.name{
+   .name{
     color: rgb(241, 35, 214);
 }
 .first-half{
@@ -34,7 +35,7 @@ section{
 .second-half{
     width: 40%;
     float:right;
-    margin-left: 5%;
+    margin-left: 2%;
     padding-left: 2%;
 }
 .second-half img{
